@@ -34,6 +34,13 @@ background-color: #249db6;
 
 /* ---Nav-bar CSS Star--- */
 
+/* Nav-logo */
+    .navbar-brand img {
+        width: 100px;
+        height: auto;
+    }
+
+
 /* Navbar */
 .navbar{
     background-color: #fff;
@@ -120,6 +127,7 @@ a.nav-link.mx-lg-2.dropdown-toggle.show {
 
 .footer-logo{
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 .footer-border-right{
