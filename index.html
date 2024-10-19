@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>University</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- Boostrap Icon Css  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- OwlCarousel slider link  -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- External Css  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive-css.css" />
+  </head>
+
+  <body>
+    <!-- ****Header Start*** -->
+    <!-- Navbar Start -->
+
+    <nav class="navbar navbar-expand-lg fixed-top border-bottom shadow-sm">
+      <div class="container responsive-logo px-0">
+        <a class="navbar-brand me-auto" href="index.html">
+          <img
+            src="images/logo_header_en.png"
+            alt="Main-logo"
+            class="img-fluid"
+          />
+        </a>
+
+        <div class="d-flex justify-between">
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a
+                    class="nav-link mx-lg-2 active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link mx-lg-2 dropdown-toggle"
+                    href="about.html"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    About
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="nav-link dropdown-item" href="about.html">About UIA</a>
+                    </li>
+
+                    <li>
+                      <a class="nav-link dropdown-item" href="executive-committee.html"
+                        >Executive Committee</a
+                      >
+                    </li>
+
+                    <li>
+                      <a class="nav-link dropdown-item" href="previous-exe-committee.html"
+                        >Previous Executive Committee</a
+                      >
+                    </li>
+                    <li>
+                      <a class="nav-link dropdown-item" href="presidents.html"
+                        >UIA Presidents</a
+                      >
+                    </li>
+                    <li>
+                      <a class="nav-link dropdown-item" href="secretaries.html"
+                        >UIA Secretaries</a
+                      >
+                    </li>
+                    <li>
+                      <a class="nav-link dropdown-item" href="staff-list.html">Staff List</a>
+                    </li>
+                    <li>
+                      <a class="nav-link dropdown-item" href="court-calender.html"
+                        >Court Calender</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link mx-lg-2 dropdown-toggle"
+                    href="members.html"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Members
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="nav-link dropdown-item" href="members-directory.html"
+                        >Members Directory</a
+                      >
+                    </li>
+
+                    <li>
+                      <a class="nav-link dropdown-item" href="divisional-committees.html"
+                        >Divisional Committees</a
+                      >
+                    </li>
+
+                    <li>
+                      <a class="nav-link dropdown-item" href="commissions.html"
+                        >Commissions</a
+                      >
+                    </li>
+
+                    <li>
+                      <a class="nav-link dropdown-item" href="new-member-registration.html"
+                        >New Member Registration</a
+                      >
+                    </li>
+
+                    
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2" href="events.html">Events</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2" href="gallery.html">Gallery</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a class="login-button" href="login.html">Login</a>
+          <button
+            class="navbar-toggler pe-0"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar End -->
+    <!-- ***************Header End************ -->
+
+<div class="container-fluid mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mt-5 mb-5 py-5">
+        <h1>CONTACT</h1>
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat autem doloribus exercitationem quasi odio quam placeat deserunt excepturi cumque tempora? Est magnam doloribus a hic temporibus consequatur aperiam impedit consequuntur repellat necessitatibus maiores nisi officia voluptatum, qui adipisci facilis ducimus iure natus magni sequi deserunt! Laboriosam consequuntur omnis sit in?
+
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+        <!-- ******Social media link for leftbar start****** -->
+
+        <div class="social-logo-leftbar">
+          <div class="all-leftbar-socail-logo mt-4">
+            <div class="social-leftbar-logo">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+            </div>
+            <div class="social-leftbar-logo">
+              <a href="#"><i class="bi bi-twitter"></i></a>
+            </div>
+            <div class="social-leftbar-logo">
+              <a href="#"><i class="bi bi-instagram"></i></a>
+            </div>
+            <div class="social-leftbar-logo">
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+    
+        <!-- ******Social media link for leftbar end****** -->
+    
+        <!-- **********Footer Part Start*********** -->
+    
+        <div class="container-fluid pt-2 footer-bg-color">
+          <div class="container mt-5">
+            <div class="row text-white">
+              <div
+                class="col-md-3 col-12 mb-2 mb-md-0 footer-border-right footer-logo"
+              >
+                <a href="index.html"
+                  ><img
+                    class="mb-3 d-flex justify-content-center align-items-center"
+                    src="images/logo_footer_en.png"
+                    alt="footer logo"
+                /></a>
+              </div>
+    
+              <div class="col-md-3 col-12 mt-md-0 mt-4 footer-border-right">
+                <h5 class="footer-heading-font-size">Contact Info</h5>
+                <div class="contact-info mt-4">
+                  <div class="contact-icon">
+                    <a href="#"><i class="bi bi-map"></i></a>
+                  </div>
+                  <div class="contact-address">
+                    <p>
+                      International Association of Lawyers, Shahbag, Dhaka-1000.
+                    </p>
+                  </div>
+                </div>
+    
+                <div class="contact-info">
+                  <div class="contact-icon">
+                    <a href="#"><i class="bi bi-telephone"></i></a>
+                  </div>
+                  <div class="contact-address">
+                    <a href="#" class="text-decoration-none">
+                      <p>+8802226 602299, +880 18 9748 5737</p>
+                    </a>
+                  </div>
+                </div>
+    
+                <div class="contact-info">
+                  <div class="contact-icon">
+                    <a href="#"><i class="bi bi-envelope-open"></i></a>
+                  </div>
+                  <div class="contact-address">
+                    <a href="#" class="text-decoration-none">
+                      <p>scba.bd@gmail.com</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+    
+              <div
+                class="col-md-3 col-12 quick-link mt-md-0 mt-4 footer-border-right"
+              >
+                <h5 class="footer-heading-font-size">Quick Links</h5>
+                <ul class="ps-0 mt-4">
+                  <li>
+                    <a href="about.html">About</a>
+                  </li>
+                  <li>
+                    <a href="members-directory.html">Members</a>
+                  </li>
+                  <li>
+                    <a href="events.html">Events</a>
+                  </li>
+                  <li>
+                    <a href="gallery.html">Gallery</a>
+                  </li>
+                  <li>
+                    <a href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+    
+              <div class="col-md-3 col-12 mb-2 mb-md-0">
+                <h5 class="footer-heading-font-size">Follow us</h5>
+                <p>on social media</p>
+    
+                <div class="all-socail-logo mt-4">
+                  <div class="social-logo">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                  </div>
+                  <div class="social-logo">
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                  </div>
+                  <div class="social-logo">
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                  </div>
+                  <div class="social-logo">
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="container border-top border-secondary mt-5">
+            <div class="row text-white">
+              <div class="col-12 d-flex justify-content-center align-items-center">
+                <hr />
+                <p class="mb-0 footer-lower-title">
+                  Copyright ©2024 University - All rights
+                  reserved | Design & Development by
+                  <a href="https://webnewsdesign.com/" target="_blank"
+                    >webnewsdesign.com</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- **********Footer Part End*********** -->
+    
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+          crossorigin="anonymous"
+        ></script>
+    
+        <script
+          src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+          integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"
+        ></script>
+    
+        <script src="js/owl-carousel.js"></script>
+      </body>
+    </html>
+    

@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+}
+/* ************ Some important css start******** */
+.text-heading-color{
+    color: #365fa0;
+}
+.back-color{
+background-color: #249db6;
+}
+.button-bg-color{
+    background-color:  #365fa0;
+}
+.nav-margin{
+    margin-top: 90px !important;
+}
+.transition{
+    transition: all 0.5s ease-in-out;
+}
+.text-color{
+    color: #3d3d3d ;
+}
+
+.bg-body-color{
+    background-color: #ecedf2;
+}
+.text-font{
+    font-family: sans-serif;
+}
+/* ************ Some important css end ********** */
+
+/* ---Nav-bar CSS Star--- */
+
+/* Navbar */
+.navbar{
+    background-color: #fff;
+    height: 90px;
+    border-radius: 0px 0px 30px 30px;
+    padding: 0.5rem;
+}
+
+/* login button */
+.login-button{
+    background-color: #249db6;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 20px;
+    /* border-radius: 50px; */
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+.login-button:hover{
+    background-color:  #365fa0;
+}
+
+/* Navbar Menu */
+.nav-link{
+    color: #365fa0;
+    font-weight: 700;
+    font-size: 18px !important;
+    position: relative;
+}
+.nav-link:hover, .nav-link.active{
+color: #249db6;
+}
+a.nav-link.mx-lg-2.active {
+    color:#249db6 ;
+}
+a.nav-link.mx-lg-2.active:hover {
+    color: #365fa0 ;
+}
+@media (min-width:991px){
+.nav-link::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width:0;
+    height: 2px;
+    background-color: #365fa0;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+
+}
+.nav-link:hover::before {
+    width: 100%;
+    visibility: visible;
+}
+} 
+.dropdown-menu{
+    border-radius: none;
+}
+
+.dropdown-item{
+    font-size: 16px !important;
+}
+.dropdown-menu.show {
+    margin-top: 23px;
+    border-top: 4px solid #249db6;
+    border-bottom: 4px solid #249db6;
+    padding: 5px;
+    
+}
+a.nav-link.mx-lg-2.dropdown-toggle.show {
+    color: #249db6;
+}
+
+/* ---Nav-bar CSS End--- */
+
+/* -------Footer Part CSS Start------- */
+
+.footer-bg-color{
+    background-color: #2a3240;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
+.footer-border-right{
+    border-right: 2px solid #249db6;
+}
+.footer-heading-font-size{
+    font-size: 18px !important;
+    font-weight: 700 !important;
+}
+
+/* social media link start */
+.all-socail-logo {
+    display: flex;
+}
+
+.social-logo a {
+    padding: 10px;
+    background-color: #bbf002;
+    color: blue;
+    margin-left: 8px;
+    border-radius: 3px;
+
+}
+
+.social-logo{
+    transition: all 0.4s;
+    padding: 4px;
+}
+
+.all-socail-logo .social-logo:hover{
+ transform: scale(1.5);
+ 
+}
+
+/* Social media link end */
+
+/* Quick links start */
+
+.quick-link ul li {
+    list-style: none;
+    padding: 3px;
+}
+
+.quick-link ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    transition: all 0.5s ease;
+}
+.quick-link ul li a:hover {
+    color: #249db6;
+    
+}
+
+/* Quick links end */
+
+/* Contact Info start  */
+
+.contact-info {
+    display: flex;
+
+}
+
+.contact-icon a {
+    color: white;
+    font-size: 15px;
+    margin-right: 10px;
+    transition: all 0.5s ease;
+}
+.contact-icon a:hover {
+    color:#249db6;
+    
+}
+.contact-address a {
+    color: white;
+}
+
+/* Contact Info end */
+
+/* ---Footer lower title start --- */
+
+.footer-lower-title{
+  font-size:13px ;
+}
+
+/* Footer lower title end */
+
+/* -------Footer Part CSS End------- */
+
