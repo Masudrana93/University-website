@@ -37,3 +37,16 @@ list-style: none;
 
 
 /* Footer CSS End  */
+
+/* Form CSS Start  */
+.box-size input, .box-size select{
+    width: 100%;
+    padding: 6px 12px;
+}
+
+
+.font-size{
+    font-size: 18px;
+}
+
+/* Form CSS End */
