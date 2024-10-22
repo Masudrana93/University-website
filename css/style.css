@@ -88,7 +88,19 @@ margin-bottom: 10px;
     font-size: 18px;
 }
 
+
+.col-10 {
+    border: 2px solid gray;
+    border-radius: 6px;
+    padding: 30px;
+}
+
+.form-section-bg{
+    background: gainsboro;
+}
 /* Form CSS End */
+
+
 
  /* ****Swiper Slider Recent Work CSS Start**** */
 
@@ -152,26 +164,6 @@ margin-bottom: 10px;
     border-bottom:4px solid #249db6;
 }
 
-
-
-/* .pen-icon-position{
-    position: relative;
-    overflow: hidden;
- 
-    
-}
-.pen-icon{
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    height: auto;
-    width: auto;
-    background: #249db6;
-    color: #fff;
-    font-size: 16px;
-    
-    
-} */
 .address{
     color: #249db6;
     font-size: 13px;
