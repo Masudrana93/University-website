@@ -8,7 +8,9 @@
 /* Some important CSS Start */
 
 /* Navbar CSS Start  */
-
+.hd-bg-top{
+    background: #5c69b3;
+}
 .col-md-6.header-top-2 ul li {
     list-style: none;
 }
@@ -21,6 +23,9 @@
 }
 .col-md-6.header-top-2 ul li a:hover{
     color: aqua;
+}
+.header-top-2 a i:hover{
+    color: green!important;
 }
 
 
@@ -49,6 +54,8 @@
 .logo-article p{
     color: white;
 }
+
+
 .footer-menu ul li{
 list-style: none;
 margin-bottom: 10px;
