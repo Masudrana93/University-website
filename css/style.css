@@ -41,6 +41,7 @@
 }
 .navbar-nav li a:hover{
     color: red !important;
+    background-color: yellowgreen;
 }
 .nav-top-font{
     font-size: 14px;
@@ -88,3 +89,109 @@ margin-bottom: 10px;
 }
 
 /* Form CSS End */
+
+ /* ****Swiper Slider Recent Work CSS Start**** */
+
+ html,
+ body {
+   position: relative;
+   height: 100%;
+ }
+
+ body {
+   
+   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+   font-size: 14px;
+   color: #000;
+   margin: 0;
+   padding: 0;
+ }
+.swiper-wrapper{
+    width: 750px!important;
+    height: 385px!important;
+}
+ .swiper {
+     width: 100%;
+     height: 100%;
+    
+ }
+
+ .swiper-slide {
+   text-align: center;
+   font-size: 18px;
+   background: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .swiper-slide img {
+   display: block;
+   width: 100%;
+   height: 100%;
+   /* object-fit: cover; */
+   max-width: 100%;
+ }
+
+ /* ****Swiper Slider Recent Work CSS End**** */
+
+ /* ----notice part CSS start---- */
+
+.event-photo{
+    position: relative;
+}
+.seminar-photo{
+ 
+    background :#249db6
+}
+
+
+
+
+.border-line img{
+    border-bottom:4px solid #249db6;
+}
+
+
+
+/* .pen-icon-position{
+    position: relative;
+    overflow: hidden;
+ 
+    
+}
+.pen-icon{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: auto;
+    width: auto;
+    background: #249db6;
+    color: #fff;
+    font-size: 16px;
+    
+    
+} */
+.address{
+    color: #249db6;
+    font-size: 13px;
+}
+.seminar-heading{
+    color: #000000;
+}
+
+.pen-icon-position img{
+  transition: all 0.3s ease-in-out;
+  
+}
+.pen-icon-position img:hover{
+    transform: scale(1.1);
+}
+.event-date-address {
+    position: absolute;
+    bottom: 45px;
+    left: 50px;
+}
+
+
+/* ----notice part CSS end---- */
