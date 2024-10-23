@@ -22,10 +22,10 @@
     transition: all 0.3s ease-in-out;
 }
 .col-md-6.header-top-2 ul li a:hover{
-    color: aqua;
+    color: #249db6;
 }
 .header-top-2 a i:hover{
-    color: green!important;
+    color: #249db6!important;
 }
 
 
@@ -40,8 +40,8 @@
     transition: all 0.3s ease-in-out;
 }
 .navbar-nav li a:hover{
-    color: red !important;
-    background-color: yellowgreen;
+    
+    background-color: #249db6;
 }
 .nav-top-font{
     font-size: 14px;
@@ -101,53 +101,10 @@ margin-bottom: 10px;
 /* Form CSS End */
 
 
-
- /* ****Swiper Slider Recent Work CSS Start**** */
-
- html,
- body {
-   position: relative;
-   height: 100%;
- }
-
- body {
-   
-   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-   font-size: 14px;
-   color: #000;
-   margin: 0;
-   padding: 0;
- }
-.swiper-wrapper{
-    width: 750px!important;
-    height: 385px!important;
-}
- .swiper {
-     width: 100%;
-     height: 100%;
-    
- }
-
- .swiper-slide {
-   text-align: center;
-   font-size: 18px;
-   background: #fff;
-   display: flex;
-   justify-content: center;
-   align-items: center;
- }
-
- .swiper-slide img {
-   display: block;
-   width: 100%;
-   height: 100%;
-   /* object-fit: cover; */
-   max-width: 100%;
- }
-
- /* ****Swiper Slider Recent Work CSS End**** */
-
  /* ----notice part CSS start---- */
+
+ 
+
 
 .event-photo{
     position: relative;
@@ -172,7 +129,7 @@ margin-bottom: 10px;
     color: #000000;
 }
 
-.pen-icon-position img{
+/* .pen-icon-position img{
   transition: all 0.3s ease-in-out;
   
 }
@@ -183,7 +140,7 @@ margin-bottom: 10px;
     position: absolute;
     bottom: 45px;
     left: 50px;
-}
+} */
 
 
 /* ----notice part CSS end---- */
