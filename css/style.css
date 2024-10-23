@@ -129,14 +129,15 @@ margin-bottom: 10px;
     color: #000000;
 }
 
-/* .pen-icon-position img{
+.pen-icon-position h6{
   transition: all 0.3s ease-in-out;
   
 }
-.pen-icon-position img:hover{
-    transform: scale(1.1);
+.pen-icon-position h6:hover{
+   color: red;
 }
-.event-date-address {
+
+/* .event-date-address {
     position: absolute;
     bottom: 45px;
     left: 50px;
